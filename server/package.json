@@ -1,0 +1,12 @@
+{
+  "name": "google-login-server",
+  "version": "1.0.0",
+  "description": "Backend server for Google login application using FastAPI",
+  "main": "main.py",
+  "scripts": {
+    "start": "python main.py",
+    "dev": "uvicorn main:app --reload --port 3001"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+} 
